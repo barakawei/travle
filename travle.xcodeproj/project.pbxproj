@@ -124,6 +124,7 @@
 		E54A84451A6B8F1B00C97DEA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54A84401A6B8EF600C97DEA /* Alamofire.framework */; };
 		E54A84461A6B8F1B00C97DEA /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E54A84401A6B8EF600C97DEA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E54A844C1A6BD9E300C97DEA /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E54A844B1A6BD9E300C97DEA /* arrow.png */; };
+		E54A844F1A6C47DF00C97DEA /* travle_2015-01-19.sql in Resources */ = {isa = PBXBuildFile; fileRef = E54A844E1A6C47DF00C97DEA /* travle_2015-01-19.sql */; };
 		E55CA6E01A3DCFBE004F4FE0 /* title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E55CA6DF1A3DCFBE004F4FE0 /* title.jpg */; };
 		E58A8CAB1A329CA200DA197E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A8CAA1A329CA200DA197E /* AppDelegate.swift */; };
 		E58A8CB21A329CA200DA197E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58A8CB11A329CA200DA197E /* Images.xcassets */; };
@@ -394,6 +395,7 @@
 		E54A84261A6B7ABA00C97DEA /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = ../SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		E54A84391A6B8EF600C97DEA /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		E54A844B1A6BD9E300C97DEA /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		E54A844E1A6C47DF00C97DEA /* travle_2015-01-19.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "travle_2015-01-19.sql"; sourceTree = "<group>"; };
 		E55CA6DF1A3DCFBE004F4FE0 /* title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = title.jpg; sourceTree = "<group>"; };
 		E58A8CA51A329CA200DA197E /* 中国の旅.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中国の旅.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58A8CA91A329CA200DA197E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -602,6 +604,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E54A844D1A6C47BA00C97DEA /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				E54A844E1A6C47DF00C97DEA /* travle_2015-01-19.sql */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
 		E58A8C9C1A329CA200DA197E = {
 			isa = PBXGroup;
 			children = (
@@ -626,6 +636,7 @@
 		E58A8CA71A329CA200DA197E /* travle */ = {
 			isa = PBXGroup;
 			children = (
+				E54A844D1A6C47BA00C97DEA /* conf */,
 				E548136D1A5092B0000EF311 /* CollectViewController.swift */,
 				E548136B1A508D40000EF311 /* CityTableViewCell.swift */,
 				E54812AD1A506D53000EF311 /* AreaViewController.swift */,
@@ -1016,6 +1027,7 @@
 				E548129B1A4DB38E000EF311 /* comment.plist in Resources */,
 				E54813571A50845D000EF311 /* tizu.gif in Resources */,
 				E548131B1A50845D000EF311 /* 4.gif in Resources */,
+				E54A844F1A6C47DF00C97DEA /* travle_2015-01-19.sql in Resources */,
 				E54813331A50845D000EF311 /* insyoku.gif in Resources */,
 				E54813461A50845D000EF311 /* omiyage.gif in Resources */,
 				E5313E271A46BA7A004E8D08 /* city.plist in Resources */,
