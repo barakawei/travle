@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>avatar</key>
+		<string>http://pic6.nipic.com/20100315/1628220_151744084628_2.jpg</string>
+		<key>name</key>
+		<string>look</string>
+		<key>time</key>
+		<string>2014-12-26</string>
+		<key>content</key>
+		<string>北京故宫，旧称为紫禁城。是世界上现存规模最大、保存最为完整的木质结构的宫殿型建筑。</string>
+	</dict>
+	<dict>
+		<key>avatar</key>
+		<string>http://pic6.nipic.com/20100315/1628220_151744084628_2.jpg</string>
+		<key>name</key>
+		<string>昵称2</string>
+		<key>time</key>
+		<string>2014-12-26</string>
+		<key>content</key>
+		<string>八达岭长城，全长一万二千多里，是世界上最古老的伟大建筑之一。</string>
+	</dict>
+	<dict>
+		<key>avatar</key>
+		<string>http://pic6.nipic.com/20100315/1628220_151744084628_2.jpg</string>
+		<key>name</key>
+		<string>昵称3</string>
+		<key>time</key>
+		<string>2014-12-26</string>
+		<key>content</key>
+		<string>颐和园，北京市古代皇家园林，是保存最完整的一座皇家行宫御苑，被誉为“皇家园林博物馆”。</string>
+	</dict>
+</array>
+</plist>
